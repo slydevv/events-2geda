@@ -9,7 +9,7 @@ import SignUp from "./component/signUp";
 
 
 
-export default function page() {
+export default function Auth() {
     const authState = useAppSelector(currentAuthState);
   
   return (

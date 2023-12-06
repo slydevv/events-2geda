@@ -5,7 +5,7 @@ import { signOut } from 'next-auth/react'
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 
-export default function page() {
+export default function Dashboard() {
  const router = useRouter();
   
  const { data: session, status } = useSession({
