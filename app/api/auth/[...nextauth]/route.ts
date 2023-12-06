@@ -7,7 +7,7 @@ import { GOOGLE_SECRET, GOOGLE_CLIENT_ID } from "@/app/utils/constants";
 import bcrypt from "bcrypt";
 
 
-export const authOptions: NextAuthOptions = {
+ const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     GoogleProvider({
